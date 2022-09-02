@@ -1,0 +1,35 @@
+/* .container {
+    width:80%;
+    height:700px;
+    background-color: antiquewhite;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+
+} */
+div {
+    content:'1111';
+    width:400px;
+    height:200px;
+    background-color: red;
+    font-size: 22px;
+    margin:auto;
+    color:white;
+
+}
+div::before {
+    content:'2222';
+    width:200px;
+    height:100px;
+    background-color: rgb(32, 8, 8);
+    font-size: 22px;
+    color:white;
+}
+
+div::before(2) {
+    content:'3';
+    width:100px;
+    height:100px;
+    background-color: rgb(35, 22, 158);
+    font-size: 22px;
+    color:white;
+}
